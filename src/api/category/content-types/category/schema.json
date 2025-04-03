@@ -28,7 +28,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::blog.blog",
-      "mappedBy": "categories"
+      "mappedBy": "category"
     }
   }
 }
