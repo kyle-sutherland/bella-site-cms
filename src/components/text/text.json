@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_text_texts",
+  "info": {
+    "displayName": "Text",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "blocks"
+    }
+  }
+}

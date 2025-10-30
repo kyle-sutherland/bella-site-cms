@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogtests",
+  "info": {
+    "singularName": "blogtest",
+    "pluralName": "blogtests",
+    "displayName": "Blogtest",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Text": {
+      "displayName": "Text",
+      "type": "component",
+      "repeatable": false,
+      "component": "text.text"
+    },
+    "zone": {
+      "type": "dynamiczone",
+      "components": [
+        "text.text",
+        "images.single-image"
+      ]
+    },
+    "image": {
+      "displayName": "Single Image",
+      "type": "component",
+      "repeatable": false,
+      "component": "images.single-image"
+    }
+  }
+}
