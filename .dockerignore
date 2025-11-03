@@ -1,0 +1,67 @@
+# Dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Development files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Strapi
+.cache
+.strapi
+.tmp
+dist
+build
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# CI/CD
+.github
+.gitlab-ci.yml
+
+# Documentation
+*.md
+!README.md
+
+# Testing
+coverage
+.nyc_output
+test
+__tests__
+
+# Deployment
+deploy
+ecosystem.config.js
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads (comment out if you want to include uploads in image)
+public/uploads

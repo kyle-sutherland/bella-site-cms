@@ -1,4 +1,44 @@
-# 🚀 Getting started with Strapi
+# Bella Site CMS
+
+Strapi v5.11.0 headless CMS for the Bella Site frontend.
+
+## Quick Links
+
+- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - Complete Oracle Cloud deployment guide
+- **[MIGRATION.md](./MIGRATION.md)** - Backup and migration guide for moving to other platforms
+- **[deploy/](./deploy/)** - Deployment scripts and configuration files
+
+## Production Deployment
+
+This CMS is configured for deployment on **Oracle Cloud Free Tier** with migration options to Hetzner, Railway, or Render.
+
+### Quick Start (Oracle Cloud)
+
+1. **Verify configuration:**
+   ```bash
+   ./deploy/verify-config.sh
+   ```
+
+2. **Generate production secrets:**
+   ```bash
+   node deploy/generate-secrets.js
+   ```
+
+3. **Follow deployment guide:**
+   See [DEPLOYMENT.md](./DEPLOYMENT.md) for complete step-by-step instructions.
+
+### Configuration Files
+
+- `Dockerfile` - Container image for Docker deployment
+- `ecosystem.config.js` - PM2 process manager configuration
+- `deploy/nginx.conf` - Nginx reverse proxy configuration
+- `deploy/setup-server.sh` - Automated server setup script
+- `deploy/setup-database.sh` - PostgreSQL database setup script
+- `.env.example` - Environment variables template
+
+---
+
+## 🚀 Getting started with Strapi (Development)
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
 
